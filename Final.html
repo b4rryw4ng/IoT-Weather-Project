@@ -647,10 +647,14 @@
         str+=(temp_c);
         str+=("<br>");
 
-        var clear=icon.search("clear")
+  var snow=icon.search("snow")
+  var clear=icon.search("clear")
   //if clear wear hat and sun glasses
   if(clear>=0){
     str+=('<img src="'+"Clothes/hat.png"+'" width="48" height="48" >');
+    str+=('<img src="'+"Clothes/sunglasses.png"+'" width="48" height="48" >');
+  }
+  else if (snow>=0){
     str+=('<img src="'+"Clothes/sunglasses.png"+'" width="48" height="48" >');
   }
 
@@ -678,7 +682,7 @@
     str+=('<img src="'+"Clothes/shorts.png"+'" width="48" height="48" >');
   }
   str+=("  ");
-  var snow=icon.search("snow")
+  
   var rain=icon.search("rain")
 
   //if rain == slipper else shoes
