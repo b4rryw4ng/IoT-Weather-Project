@@ -10,7 +10,7 @@ This Weather Project is to connect with **Weather Underground** and fetch the da
 There are 11 kind of clothing which we will use **Temp_c** and **icon** to decide which is the best.
 
 # Implantation
-We use javascript to implant the map and fetching the data.
+We use javascript to implant the map and fetch the data.
 Double click the *final.html* to start the project.
 
 
